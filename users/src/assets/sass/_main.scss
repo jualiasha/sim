@@ -25,3 +25,14 @@ a {
 h1 {
   text-align: center;
 }
+
+main,
+header,
+footer {
+  padding: 2vh;
+}
+
+footer {
+  text-align: center;
+  background-color: $skyBlueCrayola;
+}

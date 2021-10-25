@@ -30,7 +30,9 @@ const App: FC = () => {
 
   return (
     <>
-      <header></header>
+      <header>
+        <h1>Users</h1>
+      </header>
       <main>
         {!users ? (
           <h1>Loading...</h1>
@@ -47,11 +49,15 @@ const App: FC = () => {
                 );
               })}
             </ul>
-            <div>{userBox && <UserBox user={userBox} />}</div>
+            <div style={{ width: "35vw" }}>
+              {userBox && <UserBox user={userBox} />}
+            </div>
           </div>
         )}
       </main>
-      <footer></footer>
+      <footer>
+        <p>Made by Julia Matviishyna</p>
+      </footer>
     </>
   );
 };
