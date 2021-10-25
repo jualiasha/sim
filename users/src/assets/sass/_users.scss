@@ -1,0 +1,40 @@
+.users {
+  display: flex;
+  justify-content: space-around;
+  &__list {
+    //ulbackground-color: $white;
+    border: 1px solid $navyBlue;
+    border-radius: $borderRadius;
+    &__item {
+      //li
+      background-color: $poweredBlue;
+      cursor: pointer;
+      margin-bottom: 2vh;
+      padding: 1vh;
+      border-radius: $borderRadius;
+      -webkit-border-radius: $borderRadius;
+      -moz-border-radius: $borderRadius;
+      -ms-border-radius: $borderRadius;
+      -o-border-radius: $borderRadius;
+      &:hover {
+        background-color: $blizzardBlue;
+      }
+    }
+  }
+  &__info {
+    border: 1px solid $navyBlue;
+    border-radius: $borderRadius;
+    -webkit-border-radius: $borderRadius;
+    -moz-border-radius: $borderRadius;
+    -ms-border-radius: $borderRadius;
+    -o-border-radius: $borderRadius;
+    height: fit-content;
+    padding: 1vh;
+    width: 35vw;
+    text-align: center;
+    &__name {
+      color: $navyBlue;
+      margin-bottom: 2vh;
+    }
+  }
+}
