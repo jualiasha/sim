@@ -1,4 +1,13 @@
 .users {
+  &__headername {
+    background-color: $skyBlueCrayola;
+    padding: 2vh;
+    border-radius: $borderRadius;
+    -webkit-border-radius: $borderRadius;
+    -moz-border-radius: $borderRadius;
+    -ms-border-radius: $borderRadius;
+    -o-border-radius: $borderRadius;
+  }
   display: flex;
   justify-content: space-around;
   &__list {

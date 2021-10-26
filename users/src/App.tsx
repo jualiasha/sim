@@ -31,7 +31,7 @@ const App: FC = () => {
   return (
     <>
       <header>
-        <h1>Users</h1>
+        <h1 className="users__headername">Users</h1>
       </header>
       <main>
         {!users ? (
