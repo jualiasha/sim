@@ -11,6 +11,7 @@ const UserList: FC<IUsers> = ({ user, handleUserChange }) => {
     <li
       className="users__list__item"
       key={user.id}
+      tabIndex={0}
       onClick={() => handleUserChange(user)}
     >
       {user.name}
